@@ -46,6 +46,9 @@ i {
     font-size: 24px;
 }
 
+
+/*PSEUDOCLASE I*/
+
 i:hover {
     color: #e0a211
 }
@@ -58,6 +61,9 @@ nav {
     width: 100%;
 }
 
+
+/*DENTRO DE NAV*/
+
 nav ul {
     display: inline-block;
 }
@@ -65,6 +71,12 @@ nav ul {
 nav ul li {
     padding-top: 12px;
 }
+
+
+/*GENERICO A*/
+
+
+/*elimina el subrayado en todas las etiquetas a*/
 
 a {
     text-decoration: none;
@@ -100,11 +112,14 @@ li {
 }
 
 
-/*CSS #IDS Y .CLASS */
+/* .CLASS */
 
 .hastag {
     color: #e0a211
 }
+
+
+/*ID'S*/
 
 #experiencia {
     background-color: white;
@@ -129,4 +144,55 @@ li {
 
 #redes {
     margin-top: 20px;
+}
+
+
+/*card portfolio*/
+
+.filaportfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.card {
+    width: 250px;
+    background-color: #191919;
+}
+
+.card h3 {
+    color: #e0a211;
+}
+
+.card h4 {
+    margin: 0 5px 5px 0;
+}
+
+.card h3,
+.card h4,
+.card p,
+.card .masinfo {
+    padding: 0 15px;
+}
+
+.card .masinfo {
+    margin: 15px 0px 15px 0px;
+    height: 26px;
+}
+
+.card .masinfo button {
+    background-color: #e0a211;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+}
+
+.card .sep {
+    margin: 0px 5px 5px 0px;
+    border: 1px solid #e0a211;
 }
