@@ -46,12 +46,28 @@ i {
     font-size: 24px;
 }
 
+i:hover {
+    color: #e0a211
+}
+
 nav {
+    background-color: #222;
+    border-bottom: 1px solid #e0a211;
+    position: fixed;
     text-align: center;
+    width: 100%;
 }
 
 nav ul {
     display: inline-block;
+}
+
+nav ul li {
+    padding-top: 12px;
+}
+
+a {
+    text-decoration: none;
 }
 
 
@@ -67,6 +83,10 @@ a:-webkit-any-link {
 
 a:-moz-any-link {
     color: white;
+}
+
+a:hover {
+    color: #e0a211;
 }
 
 ul {
@@ -96,10 +116,15 @@ li {
 }
 
 #inicio {
-    background-image: url(../img/jupiter-southern-hemisphere-juno-spacecraft-nasa-4k.jpg);
+    padding-top: 75px;
+    background-image: url(../img/inicio.png);
     min-height: 280px;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#logo {
+    padding-top: 0px;
 }
 
 #redes {
