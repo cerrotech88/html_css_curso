@@ -54,6 +54,15 @@ i {
     font-size: 24px;
 }
 
+.masinfo button {
+    background-color: #e0a211;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
 
 /*PSEUDOCLASE I*/
 
@@ -151,6 +160,14 @@ button {
 }
 
 
+/* grid sobremi*/
+
+#sobremi {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+
+
 /*card portfolio*/
 
 
@@ -197,10 +214,6 @@ button {
 }
 
 .card .masinfo button {
-    background-color: #e0a211;
-    font-weight: 600;
-    padding-left: 15px;
-    padding-right: 15px;
     float: right;
 }
 
