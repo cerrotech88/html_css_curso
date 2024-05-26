@@ -59,8 +59,6 @@ i {
     font-weight: 600;
     padding-left: 15px;
     padding-right: 15px;
-    margin-top: 5px;
-    padding: 5px;
 }
 
 #sobremi .masinfo button {
@@ -68,6 +66,7 @@ i {
     padding-bottom: 5px;
     padding-left: 30px;
     padding-right: 30px;
+    margin-top: 50px;
 }
 
 
@@ -102,6 +101,10 @@ a {
 /*pseudoclases*/
 
 a:any-link {
+    color: white;
+}
+
+a:hover {
     color: white;
 }
 
@@ -141,7 +144,7 @@ button {
 
 /*ID'S*/
 
-#experience {
+#experienceia {
     background-color: white;
     color: #222;
 }
@@ -271,4 +274,37 @@ button {
 
 .cardexp li {
     height: 30px;
+}
+
+
+/*Formulario*/
+
+#contactar {
+    background-color: #e0a211;
+    color: #191919;
+}
+
+.itemform {
+    display: grid;
+    grid-template-columns: 150px 350px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.itemform label {
+    font-weight: 700;
+}
+
+.itemform input,
+.itemform textarea {
+    border-radius: 5px;
+    border: 1px solid #222;
+}
+
+input[type="submit"] {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    grid-column: 2/3;
+    justify-self: end;
 }
